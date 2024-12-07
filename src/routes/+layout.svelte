@@ -7,7 +7,9 @@
 	import { base } from '$app/paths';
 </script>
 
-<meta property="og:image" content="{$page.url.origin}{base}/og-image.png" />
+<svelte:head>
+	<meta property="og:image" content="{$page.url.origin}{base}/og-image.png" />
+</svelte:head>
 
 <div class="flex flex-col h-lvh">
 	{@render children()}
