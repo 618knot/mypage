@@ -21,10 +21,10 @@
       </div>
     
       <div class="flex gap-8">
-        <a href="https://x.com/618knot">
+        <a href="https://x.com/618knot" target="_blank" rel="noreferrer">
           <img src={x} alt="X link" class="hover:opacity-70 transition-opacity duration-300" />
         </a>
-        <a href="https://github.com/618knot">
+        <a href="https://github.com/618knot" target="_blank" rel="noreferrer">
           <img src={github} alt="GitHub link" class="hover:opacity-70 transition-opacity duration-300" />
         </a>
       </div>
