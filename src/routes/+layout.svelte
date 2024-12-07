@@ -8,6 +8,8 @@
 </script>
 
 <svelte:head>
+	<meta property="og:title" content="618knot" />
+	<meta property="og:description" content="About 618knot." />
 	<meta property="og:image" content="{$page.url.origin}{base}/og-image.png" />
 </svelte:head>
 
