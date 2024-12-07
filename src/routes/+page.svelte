@@ -40,6 +40,6 @@
   <div class="flex flex-col items-center space-y-4 w-full">
     <BlogLinkCard blogName="Zenn" account="@knot" url="https://zenn.dev/knot" />
     <BlogLinkCard blogName="Qiita" account="@knot" url="https://qiita.com/knot" />
-    <BlogLinkCard blogName="note" account="@618knot" url="https://qiita.com/knot" />
+    <BlogLinkCard blogName="note" account="@618knot" url="https://note.com/618knot/" />
   </div>
 </main>
