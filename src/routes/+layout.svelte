@@ -10,6 +10,9 @@
 <svelte:head>
 	<meta property="og:title" content="618knot" />
 	<meta property="og:description" content="About 618knot." />
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
 	<meta property="og:image" content="{$page.url.origin}{base}/og-image.png" />
 </svelte:head>
 
