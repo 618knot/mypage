@@ -34,7 +34,7 @@
   <div class="space-y-2.5">
     <ProfileLine icon={mapPin} alt="location">Hokkaido</ProfileLine>
     <ProfileLine icon={code} alt="programming language">Ruby, Python, JavaScript, TypeScript</ProfileLine>
-    <ProfileLine icon={note} alt="interested in">Web, Network, BLE</ProfileLine>
+    <ProfileLine icon={note} alt="interested in">Web</ProfileLine>
   </div>
 
   <div class="flex flex-col items-center space-y-4 w-full">
