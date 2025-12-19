@@ -33,7 +33,7 @@
 
   <div class="space-y-2.5">
     <ProfileLine icon={mapPin} alt="location">Hokkaido</ProfileLine>
-    <ProfileLine icon={code} alt="programming language">Ruby, Python, JavaScript, TypeScript</ProfileLine>
+    <ProfileLine icon={code} alt="programming language">Ruby, JavaScript, TypeScript</ProfileLine>
     <ProfileLine icon={note} alt="interested in">Web</ProfileLine>
   </div>
 
