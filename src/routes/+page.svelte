@@ -9,10 +9,11 @@
 
   import ProfileLine from "$lib/components/ProfileLine.svelte";
   import BlogLinkCard from "$lib/components/BlogLinkCard.svelte";
+	import ProfileTab from "$lib/parts/ProfileTab.svelte";
 </script>
 
-<main class="text-gray-200 flex flex-col items-center gap-8 pt-9">
-  <div class="flex flex-col items-center text-center gap-8">
+<main class="text-gray-200 flex flex-col items-center gap-8 pt-9 flex-1 w-full min-h-0">
+  <div class="flex flex-col items-center text-center gap-6">
     <img src={knot} alt="" />
     <div class="flex flex-col items-center gap-4">
       <div>
@@ -31,15 +32,11 @@
     </div>
   </div>
 
-  <div class="space-y-2.5">
+  <div class="space-y-2">
     <ProfileLine icon={mapPin} alt="location">Hokkaido</ProfileLine>
     <ProfileLine icon={code} alt="programming language">Ruby, JavaScript, TypeScript</ProfileLine>
     <ProfileLine icon={note} alt="interested in">Web</ProfileLine>
   </div>
 
-  <div class="flex flex-col items-center space-y-4 w-full">
-    <BlogLinkCard blogName="Zenn" account="@knot" url="https://zenn.dev/knot" />
-    <BlogLinkCard blogName="Qiita" account="@knot" url="https://qiita.com/knot" />
-    <BlogLinkCard blogName="note" account="@618knot" url="https://note.com/618knot/" />
-  </div>
+  <ProfileTab />
 </main>
