@@ -36,7 +36,7 @@
     {#if activeTab === "event"}
       <EventLinkCard name="フロントエンドカンファレンス北海道2025" date="2025.09.06" url="https://fortee.jp/frontend-conf-hokkaido-2025" role="コアスタッフ" />
       <EventLinkCard name="フロントエンドカンファレンス北海道2024" date="2024.08.24" url="https://fortee.jp/frontend-conf-hokkaido-2024" role="コアスタッフ" />
-      <EventLinkCard name="TechRAMEN 2024 Conference" date="2023.08.26" url="https://fortee.jp/techramen-24-conf" role="一般参加" />
+      <EventLinkCard name="TechRAMEN 2024 Conference" date="2024.07.27" url="https://fortee.jp/techramen-24-conf" role="一般参加" />
       <EventLinkCard name="PHPカンファレンス北海道2024" date="2024.01.13" url="https://fortee.jp/phpcon-hokkaido-2024" role="当日スタッフ" />
     {/if}
   </div>
