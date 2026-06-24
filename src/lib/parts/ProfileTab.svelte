@@ -34,6 +34,7 @@
       <BlogLinkCard blogName="note" account="@618knot" url="https://note.com/618knot/" />
     {/if}
     {#if activeTab === "event"}
+      <EventLinkCard name="フロントエンド・PHPカンファレンス北海道2026" date="2026.06.06" url="https://fortee.jp/frontend-phpcon-do-2026" role="コアスタッフ" />
       <EventLinkCard name="フロントエンドカンファレンス北海道2025" date="2025.09.06" url="https://fortee.jp/frontend-conf-hokkaido-2025" role="コアスタッフ" />
       <EventLinkCard name="フロントエンドカンファレンス北海道2024" date="2024.08.24" url="https://fortee.jp/frontend-conf-hokkaido-2024" role="コアスタッフ" />
       <EventLinkCard name="TechRAMEN 2024 Conference" date="2024.07.27" url="https://fortee.jp/techramen-24-conf" role="一般参加" />
