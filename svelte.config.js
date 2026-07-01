@@ -12,7 +12,7 @@ const config = {
 			fallback: undefined
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : "/mypage"
+			base: process.argv.includes('dev') ? '' : '/mypage'
 		}
 	}
 };
